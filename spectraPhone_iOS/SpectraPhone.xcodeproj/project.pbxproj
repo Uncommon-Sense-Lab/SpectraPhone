@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E3EE46829106A0B00C8B37A /* SpectraPhoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3EE46729106A0B00C8B37A /* SpectraPhoneApp.swift */; };
+		8E3EE46A29106A0B00C8B37A /* SpectraPhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3EE46929106A0B00C8B37A /* SpectraPhoneView.swift */; };
+		8E3EE46C29106A0D00C8B37A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E3EE46B29106A0D00C8B37A /* Assets.xcassets */; };
+		8E3EE46F29106A0D00C8B37A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E3EE46E29106A0D00C8B37A /* Preview Assets.xcassets */; };
+		8E3EE47929106A0D00C8B37A /* SpectraPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3EE47829106A0D00C8B37A /* SpectraPhoneTests.swift */; };
+		8E3EE48329106A0D00C8B37A /* SpectraPhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3EE48229106A0D00C8B37A /* SpectraPhoneUITests.swift */; };
+		8E3EE48529106A0D00C8B37A /* SpectraPhoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3EE48429106A0D00C8B37A /* SpectraPhoneUITestsLaunchTests.swift */; };
+		8E3EE49429106AD000C8B37A /* utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3EE49329106AD000C8B37A /* utilities.swift */; };
+		8E3EE49629106B1A00C8B37A /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3EE49529106B1A00C8B37A /* CameraViewModel.swift */; };
+		8E3EE49829106B4300C8B37A /* PhotoCaptureProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3EE49729106B4300C8B37A /* PhotoCaptureProcessor.swift */; };
+		8E3EE49A29106B6C00C8B37A /* CameraPhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3EE49929106B6C00C8B37A /* CameraPhotoModel.swift */; };
+		8E3EE49C29106B8E00C8B37A /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3EE49B29106B8E00C8B37A /* CameraPreview.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E3EE47529106A0D00C8B37A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E3EE45C29106A0B00C8B37A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E3EE46329106A0B00C8B37A;
+			remoteInfo = SpectraPhone;
+		};
+		8E3EE47F29106A0D00C8B37A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E3EE45C29106A0B00C8B37A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E3EE46329106A0B00C8B37A;
+			remoteInfo = SpectraPhone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E3EE46429106A0B00C8B37A /* SpectraPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpectraPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3EE46729106A0B00C8B37A /* SpectraPhoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectraPhoneApp.swift; sourceTree = "<group>"; };
+		8E3EE46929106A0B00C8B37A /* SpectraPhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectraPhoneView.swift; sourceTree = "<group>"; };
+		8E3EE46B29106A0D00C8B37A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E3EE46E29106A0D00C8B37A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E3EE47429106A0D00C8B37A /* SpectraPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpectraPhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3EE47829106A0D00C8B37A /* SpectraPhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectraPhoneTests.swift; sourceTree = "<group>"; };
+		8E3EE47E29106A0D00C8B37A /* SpectraPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpectraPhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3EE48229106A0D00C8B37A /* SpectraPhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectraPhoneUITests.swift; sourceTree = "<group>"; };
+		8E3EE48429106A0D00C8B37A /* SpectraPhoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectraPhoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8E3EE49329106AD000C8B37A /* utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utilities.swift; sourceTree = "<group>"; };
+		8E3EE49529106B1A00C8B37A /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		8E3EE49729106B4300C8B37A /* PhotoCaptureProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureProcessor.swift; sourceTree = "<group>"; };
+		8E3EE49929106B6C00C8B37A /* CameraPhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPhotoModel.swift; sourceTree = "<group>"; };
+		8E3EE49B29106B8E00C8B37A /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E3EE46129106A0B00C8B37A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3EE47129106A0D00C8B37A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3EE47B29106A0D00C8B37A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E3EE45B29106A0B00C8B37A = {
+			isa = PBXGroup;
+			children = (
+				8E3EE46629106A0B00C8B37A /* SpectraPhone */,
+				8E3EE47729106A0D00C8B37A /* SpectraPhoneTests */,
+				8E3EE48129106A0D00C8B37A /* SpectraPhoneUITests */,
+				8E3EE46529106A0B00C8B37A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E3EE46529106A0B00C8B37A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E3EE46429106A0B00C8B37A /* SpectraPhone.app */,
+				8E3EE47429106A0D00C8B37A /* SpectraPhoneTests.xctest */,
+				8E3EE47E29106A0D00C8B37A /* SpectraPhoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E3EE46629106A0B00C8B37A /* SpectraPhone */ = {
+			isa = PBXGroup;
+			children = (
+				8E3EE46729106A0B00C8B37A /* SpectraPhoneApp.swift */,
+				8E3EE46929106A0B00C8B37A /* SpectraPhoneView.swift */,
+				8E3EE49B29106B8E00C8B37A /* CameraPreview.swift */,
+				8E3EE46B29106A0D00C8B37A /* Assets.xcassets */,
+				8E3EE46D29106A0D00C8B37A /* Preview Content */,
+				8E3EE49329106AD000C8B37A /* utilities.swift */,
+				8E3EE49529106B1A00C8B37A /* CameraViewModel.swift */,
+				8E3EE49929106B6C00C8B37A /* CameraPhotoModel.swift */,
+				8E3EE49729106B4300C8B37A /* PhotoCaptureProcessor.swift */,
+			);
+			path = SpectraPhone;
+			sourceTree = "<group>";
+		};
+		8E3EE46D29106A0D00C8B37A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8E3EE46E29106A0D00C8B37A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E3EE47729106A0D00C8B37A /* SpectraPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E3EE47829106A0D00C8B37A /* SpectraPhoneTests.swift */,
+			);
+			path = SpectraPhoneTests;
+			sourceTree = "<group>";
+		};
+		8E3EE48129106A0D00C8B37A /* SpectraPhoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E3EE48229106A0D00C8B37A /* SpectraPhoneUITests.swift */,
+				8E3EE48429106A0D00C8B37A /* SpectraPhoneUITestsLaunchTests.swift */,
+			);
+			path = SpectraPhoneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E3EE46329106A0B00C8B37A /* SpectraPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E3EE48829106A0D00C8B37A /* Build configuration list for PBXNativeTarget "SpectraPhone" */;
+			buildPhases = (
+				8E3EE46029106A0B00C8B37A /* Sources */,
+				8E3EE46129106A0B00C8B37A /* Frameworks */,
+				8E3EE46229106A0B00C8B37A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpectraPhone;
+			productName = SpectraPhone;
+			productReference = 8E3EE46429106A0B00C8B37A /* SpectraPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E3EE47329106A0D00C8B37A /* SpectraPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E3EE48B29106A0D00C8B37A /* Build configuration list for PBXNativeTarget "SpectraPhoneTests" */;
+			buildPhases = (
+				8E3EE47029106A0D00C8B37A /* Sources */,
+				8E3EE47129106A0D00C8B37A /* Frameworks */,
+				8E3EE47229106A0D00C8B37A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E3EE47629106A0D00C8B37A /* PBXTargetDependency */,
+			);
+			name = SpectraPhoneTests;
+			productName = SpectraPhoneTests;
+			productReference = 8E3EE47429106A0D00C8B37A /* SpectraPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E3EE47D29106A0D00C8B37A /* SpectraPhoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E3EE48E29106A0D00C8B37A /* Build configuration list for PBXNativeTarget "SpectraPhoneUITests" */;
+			buildPhases = (
+				8E3EE47A29106A0D00C8B37A /* Sources */,
+				8E3EE47B29106A0D00C8B37A /* Frameworks */,
+				8E3EE47C29106A0D00C8B37A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E3EE48029106A0D00C8B37A /* PBXTargetDependency */,
+			);
+			name = SpectraPhoneUITests;
+			productName = SpectraPhoneUITests;
+			productReference = 8E3EE47E29106A0D00C8B37A /* SpectraPhoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E3EE45C29106A0B00C8B37A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					8E3EE46329106A0B00C8B37A = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					8E3EE47329106A0D00C8B37A = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 8E3EE46329106A0B00C8B37A;
+					};
+					8E3EE47D29106A0D00C8B37A = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 8E3EE46329106A0B00C8B37A;
+					};
+				};
+			};
+			buildConfigurationList = 8E3EE45F29106A0B00C8B37A /* Build configuration list for PBXProject "SpectraPhone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E3EE45B29106A0B00C8B37A;
+			productRefGroup = 8E3EE46529106A0B00C8B37A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E3EE46329106A0B00C8B37A /* SpectraPhone */,
+				8E3EE47329106A0D00C8B37A /* SpectraPhoneTests */,
+				8E3EE47D29106A0D00C8B37A /* SpectraPhoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E3EE46229106A0B00C8B37A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3EE46F29106A0D00C8B37A /* Preview Assets.xcassets in Resources */,
+				8E3EE46C29106A0D00C8B37A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3EE47229106A0D00C8B37A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3EE47C29106A0D00C8B37A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E3EE46029106A0B00C8B37A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3EE46A29106A0B00C8B37A /* SpectraPhoneView.swift in Sources */,
+				8E3EE49C29106B8E00C8B37A /* CameraPreview.swift in Sources */,
+				8E3EE46829106A0B00C8B37A /* SpectraPhoneApp.swift in Sources */,
+				8E3EE49829106B4300C8B37A /* PhotoCaptureProcessor.swift in Sources */,
+				8E3EE49429106AD000C8B37A /* utilities.swift in Sources */,
+				8E3EE49629106B1A00C8B37A /* CameraViewModel.swift in Sources */,
+				8E3EE49A29106B6C00C8B37A /* CameraPhotoModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3EE47029106A0D00C8B37A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3EE47929106A0D00C8B37A /* SpectraPhoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3EE47A29106A0D00C8B37A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3EE48529106A0D00C8B37A /* SpectraPhoneUITestsLaunchTests.swift in Sources */,
+				8E3EE48329106A0D00C8B37A /* SpectraPhoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E3EE47629106A0D00C8B37A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E3EE46329106A0B00C8B37A /* SpectraPhone */;
+			targetProxy = 8E3EE47529106A0D00C8B37A /* PBXContainerItemProxy */;
+		};
+		8E3EE48029106A0D00C8B37A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E3EE46329106A0B00C8B37A /* SpectraPhone */;
+			targetProxy = 8E3EE47F29106A0D00C8B37A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8E3EE48629106A0D00C8B37A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = RCA94FB8N8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E3EE48729106A0D00C8B37A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = RCA94FB8N8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E3EE48929106A0D00C8B37A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpectraPhone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "spectraPhone-US";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera used for spectral analysis";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Photo Library used to store spectral recordings";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo Library used to store spectral recordings";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spectraPhone.US;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E3EE48A29106A0D00C8B37A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpectraPhone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "spectraPhone-US";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera used for spectral analysis";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Photo Library used to store spectral recordings";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo Library used to store spectral recordings";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spectraPhone.US;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E3EE48C29106A0D00C8B37A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = US.SpectraPhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpectraPhone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpectraPhone";
+			};
+			name = Debug;
+		};
+		8E3EE48D29106A0D00C8B37A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = US.SpectraPhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpectraPhone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpectraPhone";
+			};
+			name = Release;
+		};
+		8E3EE48F29106A0D00C8B37A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = US.SpectraPhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpectraPhone;
+			};
+			name = Debug;
+		};
+		8E3EE49029106A0D00C8B37A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = US.SpectraPhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpectraPhone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E3EE45F29106A0B00C8B37A /* Build configuration list for PBXProject "SpectraPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3EE48629106A0D00C8B37A /* Debug */,
+				8E3EE48729106A0D00C8B37A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E3EE48829106A0D00C8B37A /* Build configuration list for PBXNativeTarget "SpectraPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3EE48929106A0D00C8B37A /* Debug */,
+				8E3EE48A29106A0D00C8B37A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E3EE48B29106A0D00C8B37A /* Build configuration list for PBXNativeTarget "SpectraPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3EE48C29106A0D00C8B37A /* Debug */,
+				8E3EE48D29106A0D00C8B37A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E3EE48E29106A0D00C8B37A /* Build configuration list for PBXNativeTarget "SpectraPhoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3EE48F29106A0D00C8B37A /* Debug */,
+				8E3EE49029106A0D00C8B37A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E3EE45C29106A0B00C8B37A /* Project object */;
+}
